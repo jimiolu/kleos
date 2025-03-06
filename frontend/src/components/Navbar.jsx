@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useAuthStore } from "../store/useAuthStore";
-import { LogOut, MessageSquare, Settings, User } from "lucide-react";
+import { LogIn, LogOut, MessageSquare, Settings, User } from "lucide-react";
 
 const Navbar = () => {
   const { logout, authUser } = useAuthStore();
@@ -22,19 +22,34 @@ const Navbar = () => {
           </div>
 
           <div className="flex items-center gap-2">
-            <Link to={"/settings"} className={`btn btn-sm gap-2 transition-colors`}>
+            <Link
+              to={"/settings"}
+              className={`btn btn-sm btn-primary gap-2 transition-colors`}
+            >
               <Settings className="size-5" />
               <span className="hidden sm:inline">Settings</span>
             </Link>
 
+            {!authUser && (
+              <>
+                <Link
+                  to={"/login"}
+                  className={`btn btn-sm btn-primary gap-2 transition-colors`}
+                >
+                  <LogIn className="size-5" />
+                  <span className="hidden sm:inline">Sign in</span>
+                </Link>
+              </>
+            )}
+
             {authUser && (
               <>
-                <Link to={"/profile"} className={`btn btn-sm gap-2`}>
+                <Link to={"/profile"} className={`btn btn-sm btn-primary gap-2`}>
                   <User className="size-5" />
                   <span className="hidden sm:inline">Profile</span>
                 </Link>
 
-                <button className="flex gap-2 items-center" onClick={logout}>
+                <button className="flex gap-2 items-center btn btn-sm btn-primary" onClick={logout}>
                   <LogOut className="size-5" />
                   <span className="hidden sm:inline">Logout</span>
                 </button>

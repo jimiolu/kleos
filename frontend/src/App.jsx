@@ -12,6 +12,7 @@ import { useAuthStore } from "./store/useAuthStore";
 
 import { Loader } from "lucide-react";
 import { useThemeStore } from "./store/useThemeStore";
+import LandingPage from "./pages/LandingPage";
 
 const App = () => {
   const { authUser, checkAuth, isCheckingAuth, onlineUsers } = useAuthStore();
@@ -37,10 +38,7 @@ const App = () => {
       <Navbar />
 
       <Routes>
-        <Route
-          path="/"
-          element={authUser ? <HomePage /> : <Navigate to="/login" />}
-        />
+        <Route path="/" element={authUser ? <HomePage /> : <LandingPage />} />
         <Route
           path="/signup"
           element={!authUser ? <SignUpPage /> : <Navigate to="/" />}
