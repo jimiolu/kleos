@@ -12,7 +12,7 @@ const Hero = () => {
           >
             {/* <div className="absolute lg:relative inset-0 bg-base-100/90 " /> */}
             <div className="flex flex-col items-center z-10 lg:items-start gap-10">
-              <h1 className="text-primary text-6xl md:text-7xl">Be #Endless</h1>
+              <h1 className="text-primary text-4xl md:text-7xl">Be #Endless</h1>
               <span className="text-primary/55 text-center lg:text-start text-lg w-[90%] md:w-[70%]">
                 Enjoy simple, reliable, private messaging and file upload as
                 ever with top offers available all over the world all for free.
