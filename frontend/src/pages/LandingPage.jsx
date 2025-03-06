@@ -37,7 +37,7 @@ const LandingPage = () => {
         >
           <div className="flex flex-col gap-2 items-center text-center">
             <h2 className="text-2xl">Your Chat Your World</h2>
-            <span className="text-4xl md:text-6xl font-semibold text-primary">
+            <span className="text-4xl font-semibold text-primary">
               Be #Endless with Kleos Installed
             </span>
           </div>
@@ -82,7 +82,7 @@ const LandingPage = () => {
           className="flex flex-col items-center gap-10 lg:gap-20 lg:flex-row"
         >
           <div className="flex-1 flex flex-col lg:text-start gap-5">
-            <h2 className="text-5xl font-medium lg:w-[70%]">
+            <h2 className="text-4xl font-medium lg:w-[70%]">
               Never miss a Moment with seamless mobile chat
             </h2>
             <span className="w-[80%] lg:w-[70%] text-lg">
@@ -119,7 +119,7 @@ const LandingPage = () => {
             />
           </div>
           <div className="flex-1 order-1 lg:order-2 flex flex-col lg:text-start gap-5">
-            <h2 className="text-5xl font-medium lg:w-[70%]">
+            <h2 className="text-4xl font-medium lg:w-[70%]">
               Upload and Chat like Never Before
             </h2>
             <span className="w-[80%] lg:w-[70%] text-lg">
@@ -142,7 +142,7 @@ const LandingPage = () => {
           className="flex flex-col items-center gap-10 lg:gap-20 lg:flex-row"
         >
           <div className="flex-1 flex flex-col lg:text-start gap-5">
-            <h2 className="text-5xl font-medium lg:w-[70%]">
+            <h2 className="text-4xl font-medium lg:w-[70%]">
               Rule Your World With KleosApp
             </h2>
             <span className="w-[80%] lg:w-[70%] text-lg">
@@ -181,7 +181,7 @@ const LandingPage = () => {
         >
           <div className="flex flex-col items-center gap-10">
             <div className="flex flex-col text-neutral-100 gap-0 items-center">
-              <span className="text-3xl">CONVINCED?</span>
+              <span className="text-2xl">CONVINCED?</span>
               <span className="text-xl text-neutral-100/60 text-center">
                 Explore the new social way with KLeosApp
               </span>

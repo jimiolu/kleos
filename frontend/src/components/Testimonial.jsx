@@ -36,7 +36,7 @@ const Testimonial = () => {
         className="flex flex-col lg:flex-row items-center justify-center gap-10"
       >
         <div className="md:mx-auto flex flex-col gap-4 items-center ">
-          <h2 className="text-4xl font-medium">
+          <h2 className="text-3xl font-medium">
             Hear what Users say about KleosApp
           </h2>
         </div>

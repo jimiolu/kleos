@@ -3,16 +3,16 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <div className="mt-16 lg:h-[calc(100vh-70px)]">
+    <div className="mt-16 h-[70vh] lg:h-[calc(100vh-70px)] flex items-center justify-center">
       <div className="">
-        <div className="lg:flex items-center justify-center">
+        <div className="flex flex-col lg:flex-row items-center justify-center">
           <div
             data-aos="fade-down-right"
-            className="relative lg:flex-1 h-[50vh] flex items-center justify-center lg:justify-start"
+            className="relative lg:flex-1 "
           >
             {/* <div className="absolute lg:relative inset-0 bg-base-100/90 " /> */}
             <div className="flex flex-col items-center z-10 lg:items-start gap-10">
-              <h1 className="text-primary text-4xl md:text-7xl">Be #Endless</h1>
+              <h1 className="text-primary font-semibold text-5xl md:text-7xl">Be #Endless</h1>
               <span className="text-primary/55 text-center lg:text-start text-lg w-[90%] md:w-[70%]">
                 Enjoy simple, reliable, private messaging and file upload as
                 ever with top offers available all over the world all for free.
