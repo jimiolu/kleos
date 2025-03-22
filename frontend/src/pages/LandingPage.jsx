@@ -196,7 +196,7 @@ const LandingPage = () => {
           <div className="text-neutral-400">
             <span className="text-lg">
               Copyright &copy; 2025 -
-              <Link to="https://marckuti.com"> Marc Kuti</Link>
+              <Link to="https://marckuti.com"> Jimi Olu</Link>
             </span>
           </div>
           <div className="flex gap-5 items-center">
